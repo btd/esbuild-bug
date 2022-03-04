@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "esbuild index.js --bundle --outfile=out.js --format=esm"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.14.25",
+    "gradient-parser": "^1.0.2"
+  }
+}
